@@ -39,12 +39,348 @@
 
 <body>
 
-    LEIA-ME
 
-    UTILIZAR A BRANCH MASTER SOMENTE COMO DEPÓSITO DE ARQUIVOS PADRONIZADOS.
+    <!-- LOGO E NOME EMRPESA -->
 
-    CADA EXERCICIO/PROJETO DEVERÁ TER SUA BRANCH INDIVIDUAL
+    <header>
+        <div class="container-fluid w-100">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <img id="logoHeader" class="img-fluid" src="img/M&V-vinhos-2.png">
+                    <p id="nomeEmpresa" style="margin-bottom: 0px;">Adega M&V Vinhos e Sucos</p>
+                </div>
+            </div>
+        </div>
+    </header>
 
+    <!-- BARRA DE NAVEGAÇÃO -->
+
+    <nav id="nav" class="navbar navbar-light navbar-expand-md bg-white justify-content-center sticky-top">
+        <a href="index.html" class="navbar-brand mr-0"><i class="fa fa-fort-awesome"></i></a>
+        <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+            <ul class="navbar-nav mx-auto text-center">
+                <li class="nav-item">
+                    <a id="home" class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a id="products" class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a id="contact" class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a id="faq" class="nav-link" href="#">FAQ</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav flex-row justify-content-center flex-nowrap">
+                <li class="nav-item">
+                    <a class="nav-link" href="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- SLIDER -->
+
+    <section>
+        <div id="slider" class="container">
+            <div class="row justify-content-md-center">
+                <div id="carouselExampleControls" class="carousel slide w-100" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="d-block w-100">
+                                <div class="container">
+                                    <div id="jumbo1" class="jumbotron jumbotron-fluid"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-block w-100">
+                                <div class="container">
+                                    <div id="jumbo2" class="jumbotron jumbotron-fluid"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-block w-100">
+                                <div class="container">
+                                    <div id="jumbo3" class="jumbotron jumbotron-fluid"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- BARRA DE PRODUTOS -->
+
+        <div class="container">
+            <div id="backMusica" class="row text-center">
+                <div id="musicaColBack" class="col-md-2">
+                    <p id="tituloProduto">Texto Aqui</p>
+                </div>
+                <div id="musicaColBack" class="col-md-2">
+                    <p id="tituloProduto">Texto Aqui</p>
+                </div>
+                <div id="musicaColBack" class="col-md-2">
+                    <p id="tituloProduto">Texto Aqui</p>
+                </div>
+                <div id="musicaColBack" class="col-md-2">
+                    <p id="tituloProduto">Texto Aqui</p>
+                </div>
+                <div id="musicaColBack" class="col-md-2 col-sm-1">
+                    <p id="tituloProduto">Texto Aqui</p>
+                </div>
+                <div id="musicaColBack" class="col-md-2">
+                    <p id="tituloProduto">Texto Aqui</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- RECEITAS & MATÉRIA-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div id="overflow1" class="overflow-auto">
+                        <div id="pratos" class="row justify-content-center">
+                            <div id="tema" class="col-md-3">
+                                <div class="container-fluid">
+                                    <h4 id="texto">Texto Aqui</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Etiam lobortis velit ultricies nisi luctus imperdiet a id leo.
+                                    </p>
+                                    <button id="btn" type="button" class="btn">Ver Mais</button>
+                                </div>
+                            </div>
+                            <div id="fotoPrato" class="col-md-8 col-sm-8">
+                            </div>
+                        </div>
+                        <div id="pratos" class="row justify-content-center">
+                            <div id="tema" class="col-md-3">
+                                <div class="container-fluid">
+                                    <h4 id="texto">Texto Aqui</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Etiam lobortis velit ultricies nisi luctus imperdiet a id leo.
+                                    </p>
+                                    <button id="btn" type="button" class="btn">Ver Mais</button>
+                                </div>
+                            </div>
+                            <div id="fotoPrato" class="col-md-8">
+                            </div>
+                        </div>
+                        <div id="pratos" class="row justify-content-center">
+                            <div id="tema" class="col-md-3">
+                                <div class="container-fluid">
+                                    <h4 id="texto">Texto Aqui</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Etiam lobortis velit ultricies nisi luctus imperdiet a id leo.
+                                    </p>
+                                    <button id="btn" type="button" class="btn">Ver Mais</button>
+                                </div>
+                            </div>
+                            <div id="fotoPrato" class="col-md-8">
+                            </div>
+                        </div>
+                        <div id="pratos" class="row justify-content-center">
+                            <div id="tema" class="col-md-3">
+                                <div class="container-fluid">
+                                    <h4 id="texto">Texto Aqui</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Etiam lobortis velit ultricies nisi luctus imperdiet a id leo.
+                                    </p>
+                                    <button id="btn" type="button" class="btn">Ver Mais</button>
+                                </div>
+                            </div>
+                            <div id="fotoPrato" class="col-md-8">
+                            </div>
+                        </div>
+                        <div id="pratos" class="row justify-content-center">
+                            <div id="tema" class="col-md-3">
+                                <div class="container-fluid">
+                                    <h4 id="texto">Texto Aqui</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Etiam lobortis velit ultricies nisi luctus imperdiet a id leo.
+                                    </p>
+                                    <button id="btn" type="button" class="btn">Ver Mais</button>
+                                </div>
+                            </div>
+                            <div id="fotoPrato" class="col-md-8">
+                            </div>
+                        </div>
+                        <div id="pratos" class="row justify-content-center">
+                            <div id="tema" class="col-md-3">
+                                <div class="container-fluid">
+                                    <h4 id="texto">Texto Aqui</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Etiam lobortis velit ultricies nisi luctus imperdiet a id leo.
+                                    </p>
+                                    <button id="btn" type="button" class="btn">Ver Mais</button>
+                                </div>
+                            </div>
+                            <div id="fotoPrato" class="col-md-8">
+                            </div>
+                        </div>
+                        <div id="pratos" class="row justify-content-center">
+                            <div id="tema" class="col-md-3">
+                                <div class="container-fluid">
+                                    <h4 id="texto">Texto Aqui</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Etiam lobortis velit ultricies nisi luctus imperdiet a id leo.
+                                    </p>
+                                    <button id="btn" type="button" class="btn">Ver Mais</button>
+                                </div>
+                            </div>
+                            <div id="fotoPrato" class="col-md-8">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="colunaMateria" class="col-md-3">
+                    <div id="coluna" class="row">
+                        <div class="col-md-4 text-center">
+                            <img id="imgColuna" src="img/pexels-photo-1236701.jpeg" class="img-fluid rounded-circle">
+                        </div>
+                        <div id="colunaAutor" class="col-md-8">
+                            <h5>Nome Autor</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div id="materia" class="row">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5>Titulo Matéria</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lobortis
+                                    velit ultricies nisi luctus imperdiet a id leo. Nulla laoreet erat quis dui
+                                    placerat, vel sodales magna pharetra. Mauris tincidunt at ligula eu vulputate.
+                                    Vivamus porta at libero ac iaculis. Nullam vitae magna vulputate,
+                                    tristique neque quis, lacinia elit. Interdum et malesuada fames ac ante
+                                    ipsum primis in faucibus. Nulla eu blandit quam. Pellentesque consectetur
+                                    ipsum id commodo sagittis. Nullam blandit, nunc id aliquet mattis, lectus
+                                    elit varius mi, sed vulputate leo libero ac mauris. Quisque vitae nibh non
+                                    odio pretium pretium. Morbi in libero nibh. Nunc lobortis faucibus commodo.
+                                    Etiam id scelerisque massa, vitae pharetra velit. Maecenas imperdiet magna
+                                    tellus, ut fringilla ante suscipit a. Nunc convallis, enim eget congue
+                                    dignissim, justo lorem mattis lorem, nec sollicitudin nunc tellus sed risus.
+                                    Quisque eu sollicitudin ante.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- HR(SEPARADOR DE CONTEÚDO) -->
+
+        <div class="container">
+            <hr id="divisao">
+        </div>
+
+        <!-- AUTORES -->
+
+        <div class="container">
+            <div id="linhaAutor" class="row">
+                <div class="col-md-3">
+                    <div class="container">
+                        <img id="imgAutor" src="img/617537.jpg" class="rounded-circle">
+                        <p id="nomeAutorL">Nome Autor</p>
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                            Etiam lobortis velit ultricies
+                            nisi luctus imperdiet a id leo.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="container">
+                        <img id="imgAutor" src="img/617537.jpg" class="rounded-circle">
+                        <p id="nomeAutorL">Nome Autor</p>
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                            Etiam lobortis velit ultricies
+                            nisi luctus imperdiet a id leo.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="container">
+                        <img id="imgAutor" src="img/617537.jpg" class="rounded-circle">
+                        <p id="nomeAutorL">Nome Autor</p>
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                            Etiam lobortis velit ultricies
+                            nisi luctus imperdiet a id leo.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="container">
+                        <img id="imgAutor" src="img/617537.jpg" class="rounded-circle">
+                        <p id="nomeAutorL">Nome Autor</p>
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                            Etiam lobortis velit ultricies
+                            nisi luctus imperdiet a id leo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div id="footer-cat-social" class="row justify-content-center">
+                        <div class="col-md-4">
+                            <div class="container">
+                                <dl>
+                                    <dt>Categorias</dt>
+                                    <dd>- texto</dd>
+                                    <dd>- texto</dd>
+                                    <dd>- texto</dd>
+                                    <dd>- texto</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="container">
+                                <dl>
+                                    <dt>Social</dt>
+                                    <dd><i id="icon-facebook" class="fab fa-facebook-square"></i>Facebook</dd>
+                                    <dd><i id="icon-instagram" class="fab fa-instagram"></i>Instagram</dd>
+                                    <dd><i id="icon-twitter" class="fab fa-twitter"></i>Twitter</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 </body>

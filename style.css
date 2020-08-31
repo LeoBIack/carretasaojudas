@@ -1,3 +1,275 @@
 html {
     scroll-behavior: smooth;
 }
+
+/* ENCONDER SCROLLBAR */
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* LOGO E NOME EMRPESA */
+  
+  #logoHeader{
+      height: 100px;
+      margin-top: 10px;
+  }
+  #nomeEmpresa{
+      font-size: 20px;
+      font-family: 'Baskervville', serif;
+  }
+  
+  /* BARRA DE NAVEGAÇÃO */
+  
+  #nav{
+      font-family: 'Baskervville', serif;
+  }
+  #home{
+      transition: 1s;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+  }
+  #products{
+      transition: 1s;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+  }
+  #contact{
+      transition: 1s;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+  }
+  #faq{
+      transition: 1s;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+  }
+  
+  /* barra de navegação: hover */
+  
+  #home:hover{
+      background-color:black;
+      color: white;
+      border-bottom-color: black;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+  }
+  #products:hover{
+      background-color:black;
+      color: white;
+      border-bottom-color: black;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+  }
+  #contact:hover{
+      background-color:black;
+      color: white;
+      border-bottom-color: black;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+  }
+  #faq:hover{
+      background-color:black;
+      color: white;
+      border-bottom-color: black;
+      border-bottom-style: solid;
+      border-bottom-width: 2px;
+  }
+  
+  /* SLIDER */
+  
+  .jumbotron{
+      height: 300px;
+  }
+  
+  #jumbo1{
+      margin-bottom: 0;
+      background-image: url(../img/photo-1497250681960-ef046c08a56e.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+  }
+  #jumbo2{
+      margin-bottom: 0;
+      background-image: url(../img/photo-1519501025264-65ba15a82390.jpg);	
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+  }
+  #jumbo3{
+      margin-bottom: 0;
+      background-image: url(../img/photo-1541702467897-41915a07d3a7.jpg);	
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+  }
+  #slider{
+      margin-top: 15px;
+  }
+  
+  /* BARRA DE PRODUTOS */
+  
+  #tituloProduto{
+      margin-top: 2px;
+  }
+  
+  #backMusica{
+      margin-top: 15px;
+      /*background-color: black;*/
+  }
+  #iconeMusica{
+      margin-top: 5px;
+      margin-left: 10px;
+      font-size: 20px;
+  }
+  #musicaColBack{
+      height: 30px;
+      color: white;
+      font-family: 'Baskervville', serif;
+      background-color: black;
+      transition: 1s;
+  }
+  #musicaColBack:hover{
+      color: black;
+      background-color: white;
+  }
+  
+  /* RECEITAS */
+  
+  #pratos{
+      margin-top: 10px;
+  }
+  #tema{
+      padding: 10px;
+      background-color: black;
+      color: white;
+      text-align: left;
+      transition: background 1s;
+  }
+  #fotoPrato{
+      background-image: url(../img/small-memory-lp.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  #overflow1{
+      height: 870px;
+      margin-top: 20px;
+  }
+  #btn{
+      width: 100px;
+      border: solid 2px white;
+      border-radius: 0px;
+      background-color: white;
+      transition: 0.7s;
+  }
+  #btn:hover{
+      border: solid 2px white;
+      border-radius: 7px;
+      background-color: transparent;
+      color: white;
+  }
+  
+  /* SCROLLBAR */
+  
+  #overflow1::-webkit-scrollbar {
+    width: 5px;
+    height: 0px;
+  }
+   
+  #overflow1::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.3);
+  }
+   
+  #overflow1::-webkit-scrollbar-thumb {
+    background-color: lightgrey;
+    outline: 0px solid slategrey;
+  }
+  
+  /* COLUNA MATÉRIA */
+  
+  #imgColuna{
+      margin-top: 25px;
+      height: 70px;
+  }
+  #coluna{
+      color: white;
+      background-color: black;
+  }
+  #colunaMateria{
+      margin-top: 20px;
+  }
+  #materia{
+      padding: 10px;
+      border-style: solid;
+      border-width: 1px;
+  }
+  #colunaAutor{
+      margin-top: 7px;
+  }
+  
+  /* LINHA AUTOR */
+  
+  #imgAutor{
+      height: 150px;
+      width: 150px;
+      transition: 0.5s;
+      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 16px 0 rgba(0, 0, 0, 0.19);
+  }
+  #linhaAutor{
+      margin-top: 50px;
+      text-align: center;
+  }
+  #nomeAutorL{
+      margin-top: 17px;
+      font-size: 20px;
+  }
+  #imgAutor:hover{
+      box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 10px 24px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  
+  /* DIVISÃO */
+  
+  #divisao{
+      margin-top: 50px;
+  }
+  
+  /* Footer */
+  
+  #footer{
+      margin-top: 20px;
+      background-color: black;
+  }
+  #footer-cat-social{
+      color: white;
+      margin-top: 10px;
+  }
+  #icon-facebook{
+      margin-right: 5px;
+      color: #4477dd;
+  }
+  #icon-instagram{
+      margin-right: 5px;
+      color: #E0115F;
+  }
+  #icon-twitter{
+      margin-right: 5px;
+      color: #2076ff;
+  }
+  
+  /* MEDIA(DEIXAR O SITE RESPONSIVO) */ 
+  
+  @media screen and (max-width: 425px) {
+      #fotoPrato{
+          height: 200px; /* The width is 100%, when the viewport is 800px or smaller */
+      }
+      #musicaColBack{
+          color: black;
+          background-color: white;
+      }
+      #musicaColBack:hover{
+          color: white;
+          background-color: black;
+      }
+  }
