@@ -84,21 +84,21 @@ body::-webkit-scrollbar {
   
   #jumbo1{
       margin-bottom: 0;
-      background-image: url(/img/2.jpg);
+      background-image: url(img/2.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
   }
   #jumbo2{
       margin-bottom: 0;
-      background-image: url(/img/1.jpg);	
+      background-image: url(img/1.jpg);	
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
   }
   #jumbo3{
       margin-bottom: 0;
-      background-image: url(/img/3.jpg);	
+      background-image: url(img/3.jpg);	
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -147,7 +147,7 @@ body::-webkit-scrollbar {
       transition: background 1s;
   }
   #fotoPrato{
-      background-image: url(../img/small-memory-lp.jpg);
+      background-image: url(img/photo-1497250681960-ef046c08a56e.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -164,7 +164,7 @@ body::-webkit-scrollbar {
       transition: 0.7s;
   }
   #btn:hover{
-      border: solid 2px white;
+      border: solid 2px red;
       border-radius: 7px;
       background-color: transparent;
       color: white;
