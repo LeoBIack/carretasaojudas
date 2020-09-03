@@ -164,7 +164,7 @@ body::-webkit-scrollbar {
       transition: 0.7s;
   }
   #btn:hover{
-      border: solid 2px red;
+      border: solid 2px white;
       border-radius: 7px;
       background-color: transparent;
       color: white;
