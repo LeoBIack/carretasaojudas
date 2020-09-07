@@ -49,6 +49,11 @@
     color: white;
 }
 
+#background {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 @media only screen and (min-width: 500px) {
     #video {
         margin-top: 230px;
