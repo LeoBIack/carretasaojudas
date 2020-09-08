@@ -1,9 +1,4 @@
-
 $('.carousel').carousel({
-    interval: 200
+    interval: 220
 })
 
-
-$('.carousel').carousel({
-    interval: 200
-})

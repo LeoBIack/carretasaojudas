@@ -27,12 +27,22 @@
 
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
   }
  
+  @font-face {
+    font-family: StarWars;
+    src: url(font/space\ age.ttf);
+  }
 
 .linknavbar {
     color: black;
-    font-size: 20px;
+    font-size: 26px;
+    font-family:StarWars ;
+    font-weight: bold;
+    padding-right: 50px;
 }
 
 .txtslider {
@@ -43,6 +53,7 @@
 
 .cr {
     color: white;
+    font-size: 22px;
 }
 
 .nome {
@@ -54,13 +65,19 @@
     background-size: cover;
 }
 
+
 @media only screen and (min-width: 500px) {
     #video {
-        margin-top: 230px;
+        margin-top: 300px;
         margin-left: 100px; 
     }   
 
-    #logofinal{
-        margin-top: 290px;
-    }
+   #logofinal{
+        margin-top: -100px; 
+  }
+
+  #section3 { 
+  height: 1000px;
+  }
+
 }
