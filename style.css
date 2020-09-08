@@ -16,11 +16,13 @@ body::-webkit-scrollbar {
   }
   #nomeEmpresa{
       font-size: 20px;
-      font-family: 'Baskervville', serif;
+      font-family: 'Cinzel', serif;
   }
   
   /* BARRA DE NAVEGAÇÃO */
-  
+  #logobarra{
+      height: 35px;
+  }
   #nav{
       font-family: 'Baskervville', serif;
   }
@@ -84,21 +86,21 @@ body::-webkit-scrollbar {
   
   #jumbo1{
       margin-bottom: 0;
-      background-image: url(img/2.jpg);
+      background-image: url(img/ASSETTO.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
   }
   #jumbo2{
       margin-bottom: 0;
-      background-image: url(img/1.jpg);	
+      background-image: url(img/CSGO.jpg);	
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
   }
   #jumbo3{
       margin-bottom: 0;
-      background-image: url(img/3.jpg);	
+      background-image: url(img/PROFISSAO.jpg);	
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -146,6 +148,36 @@ body::-webkit-scrollbar {
       text-align: left;
       transition: background 1s;
   }
+  #setedias{
+    background-image: url(img/setedias.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #comida{
+    background-image: url(img/comida.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #eurotruck{
+    background-image: url(img/eurotruck.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #valorant{
+    background-image: url(img/valorant.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #cities{
+    background-image: url(img/cities\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   #fotoPrato{
       background-image: url(img/photo-1497250681960-ef046c08a56e.jpg);
       background-position: center;
@@ -153,7 +185,7 @@ body::-webkit-scrollbar {
       background-size: cover;
   }
   #overflow1{
-      height: 870px;
+      height: 1279px;
       margin-top: 20px;
   }
   #btn{
