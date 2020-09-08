@@ -1,66 +1,28 @@
+
 .card-img-wrap {
-    overflow: hidden;
-    position: relative;
-  }
-  .card-img-wrap:after {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(255,255,255,0.3);
-    opacity: 0;
-    transition: opacity .25s;
-  }
-  .card-img-wrap img {
-    transition: transform .25s;
-    width: 100%;
-  }
-  .card-img-wrap:hover img {
-    transform: scale(1.8);
-  }
-  .card-img-wrap:hover:after {
-    opacity: 1;
-  }
-
-.card-body {
-    height: 180px;
+  overflow: hidden;
+  position: relative;
+}
+.card-img-wrap:after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: white (255,255,255,0.3);
+  opacity: 0;
+  transition: opacity .25s;
+}
+.card-img-wrap img {
+  transition: transform .25s;
+  width: 100%;
+}
+.card-img-wrap:hover img {
+  transform: scale(1.8);
+}
+.card-img-wrap:hover:after {
+  opacity: 1;
+  
 }
 
-  html {
-    scroll-behavior: smooth;
-  }
- 
-
-.linknavbar {
-    color: black;
-    font-size: 20px;
-}
-
-.txtslider {
-    font-size: 42px;
-    color: white;
-
-}
-
-.cr {
-    color: white;
-}
-
-.nome {
-    color: white;
-}
-
-#background {
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-@media only screen and (min-width: 500px) {
-    #video {
-        margin-top: 230px;
-        margin-left: 100px; 
-    }   
-
-    #logofinal{
-        margin-top: 290px;
-    }
+html {
+  scroll-behavior: smooth;
 }
