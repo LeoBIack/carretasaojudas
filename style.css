@@ -25,9 +25,15 @@
     height: 180px;
 }
 
-  html {
-    scroll-behavior: smooth;
-  }
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+html {
+  scroll-behavior: smooth;
+}
  
 
 .linknavbar {
@@ -38,29 +44,18 @@
 
 .txtslider {
     font-size: 50px;
-    color: white;
     font-family: monospace;
 
 }
 
-.cr {
-    color: white;
-}
-
-.nome {
-    color: white;
-}
-
 #background {
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url('imagens/fund.png'); 
+  font-family: 'Sulphur Point', sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media only screen and (min-width: 500px) {
-    #video {
-        margin-top: 360px;
-        margin-left: 100px; 
-    }   
 
     .navbar-nav {
       margin-top: -13px;
@@ -70,4 +65,9 @@
     #logofinal{
         margin-top: -410px;
     }
+}
+
+.equipe, .curso{
+  height: 200px; 
+  width: 220px;
 }
