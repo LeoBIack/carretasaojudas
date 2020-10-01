@@ -1,3 +1,8 @@
 .texto {
     color: red;
 }
+#background{
+    height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
