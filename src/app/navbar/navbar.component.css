@@ -1,7 +1,11 @@
 .linknavbar {
-    color: black;
-    font-size: 26px;
-    font-weight: bold;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
     padding-right: 50px;
+}
+#navbar{
+    height: 50px;
+    background-color: black;
 }
 
