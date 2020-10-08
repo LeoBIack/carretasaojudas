@@ -6,7 +6,7 @@ footer {
     background-color: #da9f65 ;
 }
 #background {
-  background-image: url("../assets/escola.png");
+  background-image: url("/assets/img/escola.png");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
