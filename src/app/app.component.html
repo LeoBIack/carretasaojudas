@@ -1,3 +1,149 @@
-<app-navbar></app-navbar>
-<app-frame1></app-frame1>
-<app-frame2></app-frame2>
+<nav class="navbar navbar-light navbar-expand-md justify-content-center sticky-top py-3">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+        <ul class="navbar-nav w-100 justify-content-center">
+            <li class="nav-item active">
+                <a class="nav-link" href="app.component.html">
+                    <p class="linknavbar">Home</p>
+                </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="destinos.html">
+                    <p class="linknavbar">Professores</p>
+                </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="valores.html">
+                    <p class="linknavbar">Valores</p>
+                </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="contato.html">
+                    <p class="linknavbar">Contatos</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<header>
+    <div class="container-fluid w-100">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div id="background"></div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container-md ">
+    <div class=" my-4 p-3 text-center bg-warning border rounded ">
+        <p class="display-4 font-weight-bold text-white font-italic">Escolinha do Professor Raimundo</p>
+    </div>
+    <div class="row p-2 align-items-start">
+        <div class="col mt-2">
+            <div class="bg-danger p-2 mx-3 border border-dark rounded display-5">
+                <p class="pt-2 text-center font-weight-bold"><strong>NOVO CURSO:</strong> Tecnologia da Informação
+                </p>
+            </div>
+            <p class="text-center mt-3">É o conjunto de todas as atividades e soluções providas por
+                recursos computacionais que visam permitir o armazenamento, o processamento,
+                o gerenciamento e o uso das informações.</p>
+            <p class="text-center">O profissional de TI está diretamente ligado ao desenvolvimento tecnológico de uma
+                empresa ou instituição.</p>
+        </div>
+        <div class="col mt-2">
+            <div class="bg-danger p-2 mx-3 border border-dark rounded display-5">
+                <p class="pt-2 text-center font-weight-bold"> Design</p>
+            </div>
+            <p class="text-center mt-3">O Design é a idealização, criação, desenvolvimento de produtos,
+                normalmente produzidos industrialmenteue demanda padronização dos
+                componentes e desenho normalizado.</p>
+            <p class="text-center">É uma atividade estratégica, técnica e criativa, normalmente orientada por uma
+                intenção ou objetivo, ou para a solução de um problema.</p>
+
+        </div>
+    </div>
+    <div class="row p-2">
+        <div class="col-6">
+            <div class="bg-danger p-2 mx-3 border border-dark rounded display-5">
+                <p class="pt-2 text-center font-weight-bold"> Gastronomia</p>
+            </div>
+            <p class="text-center mt-3"> Gastronomia é um ramo dentro da culinária que abrange todas as técnicas,
+                práticas e conhecimentos que ajudam a construir uma alimentação com qualidade.</p>
+            <p class="text-center">O prazer proporcionado pela comida é um dos fatores mais importantes da vida depois
+                da alimentação de sobrevivência.
+                A gastronomia nasceu desse prazer e constituiu-se como a arte de cozinhar e associar os alimentos para,
+                deles, retirar o máximo benefício.</p>
+        </div>
+        <div class="col-6">
+            <div class="bg-danger p-2 mx-3 border border-dark rounded display-5">
+                <p class="pt-2 text-center font-weight-bold">Eventos </p>
+            </div>
+            <p class="text-center mt-3"> O curso de eventos forma profissionais capazes de atuarem em todos os
+                aspectos da organização e coordenação de eventos.
+            </p>
+            <p class="text-center"> No mercado de trabalho, o profissional de Eventos pode atuar como autônomo ou em
+                empresas, organizando o calendário de eventos corporativos.</p>
+        </div>
+    </div>
+    <div class="row p-2">
+        <div class="col-6">
+            <div class="bg-danger p-2 mx-3 border border-dark rounded display-5">
+                <p class="pt-2 text-center font-weight-bold">Moda </p>
+            </div>
+            <p class="text-center mt-3">Moda é um curso para quem gosta de usar a criatividade, realizar pesquisas,
+                acompanhar tendências, criar looks, produzir eventos, coordenar equipes e
+                se relacionar com clientes e fornecedores.</p>
+            <p class="text-center mt-3"> O mercado de trabalho para estilistas é bastante concorrido.
+                Criar sua própria marca e participar dos desfiles mais badalados do mundo pode ser um processo longo e
+                com grande concorrência.</p>
+
+        </div>
+        <div class="col-6">
+            <div class="bg-danger p-2 mx-3 border border-dark rounded display-5">
+                <p class="pt-2 text-center font-weight-bold">Meio Ambiente</p>
+            </div>
+            <p class="text-center mt-3"> Meio Ambiente é um curso para quem se identifica com causas que envolvem a
+                preservação do meio ambiente
+                e procura propor soluções para a conservação e proteção dos recursos naturais.</p>
+            <p class="text-center"> Executar análises físico-químicas e microbiológicas e o controle operacional de
+                sistemas de tratamento de águas, efluentes,
+                emissões atmosféricas e resíduos sólidos, e a recuperação de áreas degradadas, considerando os aspectos
+                técnicos, econômicos e legais.</p>
+        </div>
+    </div>
+</div>
+<div class="container mb-3">
+<app-professores></app-professores>
+<app-cursos></app-cursos>
+</div>
+<footer class="font-small pt-4">
+    <div class="container-fluid text-left">
+        <div class="row">
+            <div class="col-md-6">
+                <h5 class="text-uppercase font-weight-bold">Razão da escola</h5>
+                <p>Centrar a razão de ser da escola no processo de ensino-aprendizagem requer bem mais que a simples
+                    aceitação de uma tradição, envolve uma opção de ordem política e, por decorrência,
+                    não se refere ao ensinar e ao aprender como atos isentos de uma explicitação, isto é, onde
+                    deliberações políticas são feitas como se assim não fossem, deixando, aparentemente para o
+                    acaso,
+                    as mudanças qualitativas que os debates entre professores têm mostrado como necessárias.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <h5 class="text-uppercase font-weight-bold">Motivação a aprender</h5>
+                <p>Louis Not (1991) afirma: “Toda atividade requer um dinamismo, uma disciplina, que se define por
+                    dois conceitos, o de energia e o de direção. No campo da psicologia, esse dinamismo tem sua
+                    origem nas motivações que os sujeitos podem ser”.
+                    Diz Gagné (1985): “A motivação é uma pré-condição para a aprendizagem”. Frymier (1970) afirma “A
+                    motivação para aprender dá direção e intensidade à conduta humana num contexto educativo”.
+                </p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="text-center py-3">
+        <p>© 2020 Copyright </p>
+    </div>
+</footer>

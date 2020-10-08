@@ -1,0 +1,16 @@
+nav {
+    border-bottom: solid 1px;
+    background-color:#da9f65 ;
+}
+footer {
+    background-color: #da9f65 ;
+}
+#background {
+  background-image: url("../assets/escola.png");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}

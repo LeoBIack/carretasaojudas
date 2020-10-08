@@ -2,19 +2,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { Frame1Component } from './frame1/frame1.component';
-import { Frame2Component } from './frame2/frame2.component';
+import { ProfessoresComponent } from './professores/professores.component';
+import { FormsModule } from '@angular/forms';
+import { CursosComponent } from './cursos/cursos.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-    Frame1Component,
-    Frame2Component,
+    ProfessoresComponent,
+    CursosComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
