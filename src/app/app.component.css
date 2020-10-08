@@ -1,0 +1,58 @@
+@font-face {
+    font-family: StarWars;
+    src: url(/assets/fonts/spaceAge.ttf);
+  }
+
+  @font-face {
+    font-family: SulphurPoint;
+    src: url(/assets/fonts/SulphurPoint-Regular.ttf);
+  }
+
+  #background {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+  }
+ 
+
+  .txtslider {
+    font-size: 42px;
+    color: white;
+    font-family: SulphurPoint;
+}
+
+.cr {
+    color: white;
+    font-size: 22px;
+    font-family: SulphurPoint;
+}
+
+.nome {
+    color: white;
+    font-family: SulphurPoint;
+}
+
+
+
+
+@media only screen and (min-width: 500px) {
+    #video {
+        margin-top: 300px;
+        margin-left: 100px; 
+    }   
+
+   #logofinal{
+        margin-top: -100px; 
+  }
+
+  #section3 { 
+  height: 1000px;
+  }
+
+}

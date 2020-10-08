@@ -3,15 +3,17 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { Frame1Component } from './frame1/frame1.component';
-import { Frame2Component } from './frame2/frame2.component';
+import { CursosComponent } from './cursos/cursos.component';
+import { FooterComponent } from './footer/footer.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    Frame1Component,
-    Frame2Component,
+    CursosComponent,
+    FooterComponent,
+ 
   ],
   imports: [
     BrowserModule

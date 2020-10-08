@@ -1,0 +1,19 @@
+#section4 {
+    padding-left: 400px; 
+    padding-right: 400px; 
+    padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 500px) {
+
+    #section4 {
+        padding-left: 20px; 
+        padding-right: 20px; 
+        padding-bottom: 100px;
+    }
+
+}
+
+.list-group-item {
+    padding-bottom: 10px;
+}
