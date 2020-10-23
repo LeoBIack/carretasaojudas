@@ -1,0 +1,20 @@
+<h2>Inserção Clientes</h2>
+
+<mat-card>
+
+  <mat-form-field>
+    <input type="text" matInput placeholder="Titulo" [(ngModel)]="titulo" />
+  </mat-form-field>
+
+  <mat-form-field>
+    <input type="text" matInput placeholder="Autor" [(ngModel)]="autor" />
+  </mat-form-field>
+
+  <mat-form-field>
+    <input type="text" matInput placeholder="Numero De Paginas" [(ngModel)]="numeroDePaginas" />
+  </mat-form-field>
+
+
+  <button mat-flat-button color="primary" (click)="onInserirLivro()">Inserir Livro</button>
+
+</mat-card>

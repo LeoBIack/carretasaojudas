@@ -11,17 +11,17 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatExpansionModule} from '@angular/material/expansion';
 
-import { ClienteInserirComponent } from './Clientes/cliente-inserir/cliente-inserir.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CabecalhoComponent } from './cabecalho/cabecalho.component';
-import { ClienteListaComponent } from './Clientes/cliente-lista/cliente-lista.component';
+import { LivrosInserirComponent } from './livros/livros-inserir/livros-inserir.component';
+import { LivrosListaComponent } from './livros/livros-lista/livros-lista.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ClienteInserirComponent,
     CabecalhoComponent,
-    ClienteListaComponent
+    LivrosInserirComponent,
+    LivrosListaComponent
   ],
   imports: [
     BrowserModule,

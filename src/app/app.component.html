@@ -1,6 +1,6 @@
 <app-cabecalho></app-cabecalho>
 
 <main>
-  <app-cliente-inserir></app-cliente-inserir>
-  <app-cliente-lista></app-cliente-lista>
+  <app-livros-inserir (livroInserido)="onLivroInserido($event)"></app-livros-inserir>
+  <app-livros-lista [livros]="livros"></app-livros-lista>
 </main>
