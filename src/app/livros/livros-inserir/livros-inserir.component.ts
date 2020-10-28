@@ -1,45 +1,58 @@
-import { Component, EventEmitter, Output } from '@angular/core';
-import { Livro } from '../livro.model';
+//import { Component, EventEmitter, Output } from '@angular/core';
+import { Component, OnInit, Input  } from '@angular/core';
+import { NgForm } from '@angular/forms';
+//import { Livro } from '../livro.model';
+import { LivroService } from '../livro.service';
 
 @Component({
   selector: 'app-livros-inserir',
   templateUrl: './livros-inserir.component.html',
-  styleUrls: ['./livros-inserir.component.css']
+  styleUrls: ['./livros-inserir.component.css'],
 })
 export class LivrosInserirComponent {
 
-  @Output()  livroInserido = new EventEmitter<Livro>();
+  constructor (public livroService: LivroService){
 
-  id: number;
-  titulo: string;
-  autor: string;
-  numeroDePaginas: string;
+  }
+
+  //@Output()  livroInserido = new EventEmitter<Livro>();
+
+  //id: number;
+  //titulo: string;
+  //autor: string;
+  //numeroDePaginas: string;
 
 
-  onInserirLivro(){
+  onInserirLivro(form: NgForm){
 
-    const livro: Livro = {
-      id: getRandomString(Number),
-      titulo: this.titulo,
-      autor: this.autor,
-      numeroDePaginas: this.numeroDePaginas
-    }
+    if (form.invalid) return;
 
-    this.livroInserido.emit(livro);
+    this.livroService.inserirLivros(
+      form.value.id,
+      form.value.titulo,
+      form.value.autor,
+      form.value.numeroDePaginas
+    )
+    form.resetForm();
 
-    this.titulo = '';
-    this.autor = '';
-    this.numeroDePaginas = '';
+    //const livro: Livro = {
+    //  id: getRandomString(Number),
+    //  titulo: form.value.titulo,
+    //  autor: form.value.autor,
+    //  numeroDePaginas: form.value.numeroDePaginas
+    //}
+
+    //this.livroInserido.emit(livro);
 
   }
 
 }
 
-  var idNovo: number = 0;
-  var num: number;
+/*  var idNovo: number = 0;
 
 function getRandomString(number) {
   var result: number;
+  var num: number = 1;
 
   num = 1;
   result = idNovo + 1;
@@ -47,4 +60,4 @@ function getRandomString(number) {
   idNovo = result;
 
   return result;
-}
+}*/
