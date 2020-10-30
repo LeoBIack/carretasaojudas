@@ -1,4 +1,4 @@
-import { Component, Input, OnDestroy, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Livro } from '../livro.model'
 import { LivroService } from '../livro.service';
 import { Observable, Subscription } from 'rxjs';
@@ -20,7 +20,9 @@ export class LivrosListaComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
     this.livros = this.livroService.getLivros();
 
-    this.livroSubscription = this.livroService.getListaLivrosAtualizadoObservable().subscribe(
+    this.livroSubscription = this.livroService.
+    getListaLivrosAtualizadoObservable()
+    .subscribe(
       (livros: Livro[]) => {
         this.livros =  livros;
       }

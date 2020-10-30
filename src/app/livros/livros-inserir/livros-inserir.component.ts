@@ -45,19 +45,4 @@ export class LivrosInserirComponent {
     //this.livroInserido.emit(livro);
 
   }
-
 }
-
-/*  var idNovo: number = 0;
-
-function getRandomString(number) {
-  var result: number;
-  var num: number = 1;
-
-  num = 1;
-  result = idNovo + 1;
-
-  idNovo = result;
-
-  return result;
-}*/
