@@ -1,7 +1,5 @@
-//import { Component, EventEmitter, Output } from '@angular/core';
 import { Component, OnInit, Input  } from '@angular/core';
 import { NgForm } from '@angular/forms';
-//import { Livro } from '../livro.model';
 import { LivroService } from '../livro.service';
 
 @Component({
@@ -15,14 +13,6 @@ export class LivrosInserirComponent {
 
   }
 
-  //@Output()  livroInserido = new EventEmitter<Livro>();
-
-  //id: number;
-  //titulo: string;
-  //autor: string;
-  //numeroDePaginas: string;
-
-
   onInserirLivro(form: NgForm){
 
     if (form.invalid) return;
@@ -35,29 +25,6 @@ export class LivrosInserirComponent {
     )
     form.resetForm();
 
-    //const livro: Livro = {
-    //  id: getRandomString(Number),
-    //  titulo: form.value.titulo,
-    //  autor: form.value.autor,
-    //  numeroDePaginas: form.value.numeroDePaginas
-    //}
-
-    //this.livroInserido.emit(livro);
-
   }
 
 }
-
-/*  var idNovo: number = 0;
-
-function getRandomString(number) {
-  var result: number;
-  var num: number = 1;
-
-  num = 1;
-  result = idNovo + 1;
-
-  idNovo = result;
-
-  return result;
-}*/

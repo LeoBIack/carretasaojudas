@@ -10,18 +10,23 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatExpansionModule} from '@angular/material/expansion';
+import {MatDatepickerModule} from '@angular/material/datepicker';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CabecalhoComponent } from './cabecalho/cabecalho.component';
 import { LivrosInserirComponent } from './livros/livros-inserir/livros-inserir.component';
 import { LivrosListaComponent } from './livros/livros-lista/livros-lista.component';
+import { GerenciadorInserirComponent } from './Gerenciador/gerenciador-inserir/gerenciador-inserir.component';
+import { GerenciadorListaComponent } from './Gerenciador/gerenciador-lista/gerenciador-lista.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CabecalhoComponent,
     LivrosInserirComponent,
-    LivrosListaComponent
+    LivrosListaComponent,
+    GerenciadorInserirComponent,
+    GerenciadorListaComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +37,8 @@ import { LivrosListaComponent } from './livros/livros-lista/livros-lista.compone
     MatButtonModule,
     MatToolbarModule,
     MatIconModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatDatepickerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

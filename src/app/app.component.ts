@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Livro } from './livros/livro.model';
+import { Lembrete } from './Gerenciador/lembrete.model';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +8,7 @@ import { Livro } from './livros/livro.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Portal de viagens';
+  title = 'Gerenciador de Atividades';
 
   livros: Livro[] = []
 

@@ -4,7 +4,16 @@
 
   <form (submit)="onInserirLivro(livroForm)" #livroForm="ngForm">
     <mat-form-field>
-      <input type="text" matInput placeholder="Titulo" name="titulo" ngModel required minlength="3" #titulo="ngModel">
+      <input
+        type="text"
+        matInput
+        placeholder="Titulo"
+        name="titulo"
+        ngModel
+        required
+        minlength="3"
+        #titulo="ngModel"
+      >
       <mat-error *ngIf="titulo.invalid">Digite um Titulo decente</mat-error>
     </mat-form-field>
 
