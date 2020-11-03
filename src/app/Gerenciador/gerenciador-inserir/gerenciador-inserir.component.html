@@ -10,38 +10,23 @@
     </mat-form-field>
 
     <mat-form-field>
-      <mat-label>Choose a date</mat-label>
 
-      <input matInput [matDatepicker]="picker" name="dataComeco" ngModel required #dataComeco="ngModel" >
-      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
-      <mat-datepicker #picker></mat-datepicker>
-      <mat-error *ngIf="dataComeco.invalid">Escolha uma data</mat-error>
-
-      <!--input type="text" matInput placeholder="Titulo" name="titulo" ngModel required minlength="3" #titulo="ngModel" >
-      <mat-error *ngIf="titulo.invalid">Digite um Titulo decente</mat-error-->
+      <textarea matInput placeholder="Data Começo" name="dataComeco" ngModel required #dataComeco="ngModel" ></textarea>
+      <mat-error *ngIf="dataComeco.invalid">Digite uma data</mat-error>
 
     </mat-form-field>
 
     <mat-form-field>
 
-      <input matInput [matDatepicker]="picker" name="dataTermino" ngModel required #dataTermino="ngModel" >
-      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
-      <mat-datepicker #picker></mat-datepicker>
-      <mat-error *ngIf="dataTermino.invalid">Escolha uma data</mat-error>
-
-      <!--input type="text" matInput placeholder="Autor" name="autor" ngModel required #autor="ngModel"/>
-      <mat-error *ngIf="autor.invalid">Digite um Autor decente</mat-error-->
+      <textarea matInput placeholder="Data Termino" name="dataTermino" ngModel required #dataTermino="ngModel" ></textarea>
+      <mat-error *ngIf="dataTermino.invalid">Digite uma data</mat-error>
 
     </mat-form-field>
 
     <mat-form-field>
 
       <mat-label>Qual a atividade?</mat-label>
-      <textarea matInput placeholder="Ex. Fazer o BackEnd e FrontEnd do site" name="atividade" ngModel required #atividade="ngModel" ></textarea>
-
-      <!--input type="text" matInput placeholder="Numero De Paginas" name="numeroDePaginas" ngModel required #numeroDePaginas="ngModel"/>
-      <mat-error *ngIf="numeroDePaginas.invalid">NÃO SEJA RETARDADO</mat-error-->
-
+      <textarea matInput placeholder="Ex. Fazer o BackEnd e FrontEnd do site" name="atividade" ngModel #atividade="ngModel" ></textarea>
 
     </mat-form-field>
     <button mat-flat-button color="primary">Inserir Livro</button>
