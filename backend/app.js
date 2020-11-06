@@ -1,16 +1,13 @@
 const express = require ('express');
 const app = express();
 const bodyParser = require ('body-parser');
-
 const mongoose = require('mongoose');
-
-const Livro = require('./models/livro')
+const Livro = require('./models/livro');
 
 app.use (bodyParser.json());
 
 
-
-mongoose.connect('mongodb+srv://user:12345@cluster0.1zrgk.mongodb.net/app-mean?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://PedroRAlvarenga:Pedro123@cluster0.v3jzz.mongodb.net/app-mean?retryWrites=true&w=majority',
   { useNewUrlParser: true,
     useUnifiedTopology: true
    })

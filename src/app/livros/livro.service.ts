@@ -18,15 +18,15 @@ export class LivroService {
   private livros: Livro [] = [];
 
   getLivros(): void {
-    this.httpClient.get<{mensagem : string, livros: Livro[]}>(
+    this.httpClient
+    .get<{mensagem : string, livros: Livro[]}>(
     'http://localhost:3000/api/livros'
       ).subscribe((dados) => {
      this.livros = dados.livros
          this.listaLivrosAtualizado.next([...this.livros])
            })
-            //return [...this.clientes];
           }
-          
+
   inserirLivros (id:number, titulo: string, autor: string, numeroDePaginas: string): void{
     const livro: Livro = {
       id: getRandomString(Number),
