@@ -1,0 +1,30 @@
+<mat-sidenav-container class="example-container">
+
+  <mat-sidenav #sidenav mode="side" >
+    <mat-nav-list>
+      <a mat-list-item routerLink="/" >
+          <i class="material-icons">
+            create
+         </i>
+         Cadastro de Lembretes
+      </a>
+      <a mat-list-item routerLink="/MenuListaDeLembretes" >
+        <i class="material-icons">
+          list_alt
+        </i>
+        Lista de Lembretes
+      </a>
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+      <button mat-mini-fab aria-label="Example icon button with a menu icon" type="button" mat-button (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+
+      <router-outlet></router-outlet>
+
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
+

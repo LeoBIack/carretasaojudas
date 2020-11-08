@@ -1,4 +1,15 @@
-:host {
-  margin-top: 1rem;
+/*:host {
   display: block;
+  width: 100%;
+  margin: 70px;
+}*/
+p{
+  margin-top: 30px;
+  text-align: center;
 }
+mat-accordion{
+  display: block;
+  width: 100%;
+
+}
+

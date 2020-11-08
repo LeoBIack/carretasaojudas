@@ -1,6 +1,6 @@
 export interface Lembrete{
-  //tituloLembrete: string;
+  titulo: string;
   dataComeco: string;
   dataTermino: string;
-  atividade: string;
+  atividade: string
 }

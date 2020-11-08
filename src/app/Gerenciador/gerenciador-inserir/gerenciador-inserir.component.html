@@ -1,24 +1,22 @@
-<h2>Gerenciador de Atividades</h2>
-
 <mat-card>
 
   <form (submit)="onInserirLembrete(lembreteForm)" #lembreteForm="ngForm">
 
     <mat-form-field>
-      <input type="text" matInput placeholder="Titulo" name="tituloLembrete" ngModel required #titulo="ngModel">
+      <input type="text" matInput placeholder="Titulo" name="titulo" ngModel required #titulo="ngModel">
       <mat-error *ngIf="titulo.invalid">Digite um titulo para a atividade</mat-error>
     </mat-form-field>
 
     <mat-form-field>
 
-      <textarea matInput placeholder="Data Começo" name="dataComeco" ngModel required #dataComeco="ngModel" ></textarea>
+      <input type="text" matInput placeholder="Data Começo" name="dataComeco" ngModel required #dataComeco="ngModel">
       <mat-error *ngIf="dataComeco.invalid">Digite uma data</mat-error>
 
     </mat-form-field>
 
     <mat-form-field>
 
-      <textarea matInput placeholder="Data Termino" name="dataTermino" ngModel required #dataTermino="ngModel" ></textarea>
+      <input type="text" matInput placeholder="Data Termino" name="dataTermino" ngModel required #dataTermino="ngModel">
       <mat-error *ngIf="dataTermino.invalid">Digite uma data</mat-error>
 
     </mat-form-field>
@@ -29,7 +27,7 @@
       <textarea matInput placeholder="Ex. Fazer o BackEnd e FrontEnd do site" name="atividade" ngModel #atividade="ngModel" ></textarea>
 
     </mat-form-field>
-    <button mat-flat-button color="primary">Inserir Livro</button>
+    <button mat-flat-button color="accent">Inserir Lembrete</button>
   </form>
 
 </mat-card>

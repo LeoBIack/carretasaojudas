@@ -18,9 +18,9 @@ export class LembreteService {
     return [...this.lembretes];
   }
 
-  inserirLembrete (/*tituloLembrete: String,*/ dataComeco: string, dataTermino: string, atividade: string): void{
+  inserirLembrete (titulo: string, dataComeco: string, dataTermino: string, atividade: string): void{
     const lembrete: Lembrete = {
-     //tituloLembrete: tituloLembrete,
+      titulo: titulo,
       dataComeco: dataComeco,
       dataTermino: dataTermino,
       atividade: atividade

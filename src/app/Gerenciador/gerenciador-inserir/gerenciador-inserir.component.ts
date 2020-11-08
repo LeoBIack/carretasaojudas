@@ -16,7 +16,7 @@ export class GerenciadorInserirComponent{
     if (form.invalid) return;
 
     this.lembreteService.inserirLembrete(
-      //form.value.tituloLembrete,
+      form.value.titulo,
       form.value.dataComeco,
       form.value.dataTermino,
       form.value.atividade
