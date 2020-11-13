@@ -18,7 +18,7 @@ export class GerenciadorListaComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.lembretes = this.lembreteService.getlembretes();
+    this.lembreteService.getLembretes();
 
     this.lembreteSubscription = this.lembreteService.getListalembreteAtualizadoObservable().subscribe(
       (lembretes: Lembrete[]) => {
